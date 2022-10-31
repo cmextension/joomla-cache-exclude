@@ -16,3 +16,7 @@ You can find the plugin in Joomla!'s plugin list by searching for `System - Cach
 
  * **Excluded Menu Items**: The menu items which you want to exclude from caching.
  * **Exclude URLs**: Specify the URLs you want to exclude from caching, each on a separate line. Regular expressions are supported, eg. `about\-[a-z]+` - will exclude all URLs that have 'about-', for example `about-us`, `about-me`, `about-joomla`; or `/component/users/` - will exclude all URLs that have `/component/users/`; or `com_users` - will exclude all Users component pages.
+
+## License
+
+GNU General Public License version 2 or later. See [LICENSE](LICENSE).

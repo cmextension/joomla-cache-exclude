@@ -1,7 +1,7 @@
 <?php
 /**
  * @package     plg_system_cacheexclude
- * @copyright   Copyright (C) 2022 CMExension
+ * @copyright   Copyright (C) 2023 CMExension
  * @license     GNU General Public License version 2 or later
  */
 
@@ -43,7 +43,7 @@ class PlgSystemCacheExclude extends CMSPlugin
         // Get the application if not done by JPlugin.
         if (!isset($this->app))
         {
-            $this->app = JFactory::getApplication();
+            $this->app = Factory::getApplication();
         }
     }
 
@@ -58,7 +58,7 @@ class PlgSystemCacheExclude extends CMSPlugin
     {
         $app = Factory::getApplication();
 
-        if (!$app->isSite()) return;
+        if (!$app->isClient('site')) return;
 
         $exclude = $this->shouldWeExclude();
 

@@ -4,7 +4,7 @@ This plugin is used to exclude pages from Joomla's system cache (Convervative an
 
 ## Technical Requirements
 
- * Joomla! 3.10.x or 4.x.x.
+ * Joomla! 3.10.x, 4.x.x, 5.x.x
 
 ## Installation
 

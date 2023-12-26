@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension version="3.10" type="plugin" group="system" method="upgrade">
 	<name>plg_system_cacheexclude</name>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<author>CMExtension</author>
 	<authorEmail>cmext.vn@gmail.com</authorEmail>
 	<authorUrl>www.cmextension.com</authorUrl>
-	<creationDate>October 2022</creationDate>
-	<copyright>(C) 2022 CMExtension</copyright>
+	<creationDate>December 2023</creationDate>
+	<copyright>(C) 2022 - 2023 CMExtension</copyright>
 	<license>GNU General Public License version 2 or later</license>
 	<description>PLG_SYSTEM_CACHEEXCLUDE_XML_DESCRIPTION</description>
 	<files>
